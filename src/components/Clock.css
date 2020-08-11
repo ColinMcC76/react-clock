@@ -1,0 +1,38 @@
+#root{
+    justify-content: center;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Clock{
+    height: 100vh;
+}
+div{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    font-size: 70px;
+    color: red;
+    text-shadow: 2px 2px 5px #FF0000;
+    border: none;
+    padding: 10px;
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+#clockDisplay{
+    background-color: whitesmoke;
+}
+footer {
+    position: flex;
+    justify-content:center;
+    align-items:center; 
+    width: auto;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    border:3px outset red;
+}
